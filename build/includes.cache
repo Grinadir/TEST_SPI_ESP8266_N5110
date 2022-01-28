@@ -10,27 +10,32 @@
     "Includepath": "C:\\Users\\Alexsandr\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.5.2\\variants\\nodemcu"
   },
   {
-    "Sourcefile": "C:\\Users\\Alexsandr\\Documents\\Arduino\\ARDUINO_PROJECT\\ESP_NOKIA5110\\build\\sketch\\TEST_Nokia_5110_ESP8266.ino.cpp",
-    "Include": "Adafruit_GFX.h",
-    "Includepath": "C:\\Users\\Alexsandr\\Documents\\Arduino\\ARDUINO_PROJECT\\libraries\\Adafruit_GFX_Library"
-  },
-  {
-    "Sourcefile": "C:\\Users\\Alexsandr\\Documents\\Arduino\\ARDUINO_PROJECT\\ESP_NOKIA5110\\build\\sketch\\TEST_Nokia_5110_ESP8266.ino.cpp",
-    "Include": "Adafruit_PCD8544.h",
-    "Includepath": "C:\\Users\\Alexsandr\\Documents\\Arduino\\ARDUINO_PROJECT\\libraries\\Adafruit_PCD8544_Nokia_5110_LCD_library"
-  },
-  {
-    "Sourcefile": "C:\\Users\\Alexsandr\\Documents\\Arduino\\ARDUINO_PROJECT\\ESP_NOKIA5110\\build\\sketch\\TEST_Nokia_5110_ESP8266.ino.cpp",
-    "Include": "Adafruit_SPIDevice.h",
-    "Includepath": "C:\\Users\\Alexsandr\\Documents\\Arduino\\ARDUINO_PROJECT\\libraries\\Adafruit_BusIO"
-  },
-  {
-    "Sourcefile": "C:\\Users\\Alexsandr\\Documents\\Arduino\\ARDUINO_PROJECT\\ESP_NOKIA5110\\build\\sketch\\TEST_Nokia_5110_ESP8266.ino.cpp",
+    "Sourcefile": "C:\\Users\\Alexsandr\\Documents\\Arduino\\ARDUINO_PROJECT\\ESP_NOKIA5110\\build\\sketch\\ESP_NOKIA5110.ino.cpp",
     "Include": "SPI.h",
     "Includepath": "C:\\Users\\Alexsandr\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.5.2\\libraries\\SPI"
   },
   {
-    "Sourcefile": "C:\\Users\\Alexsandr\\Documents\\Arduino\\ARDUINO_PROJECT\\ESP_NOKIA5110\\build\\sketch\\TEST_Nokia_5110_ESP8266.ino.cpp",
+    "Sourcefile": "C:\\Users\\Alexsandr\\Documents\\Arduino\\ARDUINO_PROJECT\\ESP_NOKIA5110\\build\\sketch\\ESP_NOKIA5110.ino.cpp",
+    "Include": "Adafruit_GFX.h",
+    "Includepath": "C:\\Users\\Alexsandr\\Documents\\Arduino\\ARDUINO_PROJECT\\libraries\\Adafruit_GFX_Library"
+  },
+  {
+    "Sourcefile": "C:\\Users\\Alexsandr\\Documents\\Arduino\\ARDUINO_PROJECT\\ESP_NOKIA5110\\build\\sketch\\ESP_NOKIA5110.ino.cpp",
+    "Include": "Adafruit_PCD8544.h",
+    "Includepath": "C:\\Users\\Alexsandr\\Documents\\Arduino\\ARDUINO_PROJECT\\libraries\\Adafruit_PCD8544_Nokia_5110_LCD_library"
+  },
+  {
+    "Sourcefile": "C:\\Users\\Alexsandr\\Documents\\Arduino\\ARDUINO_PROJECT\\ESP_NOKIA5110\\build\\sketch\\ESP_NOKIA5110.ino.cpp",
+    "Include": "Adafruit_SPIDevice.h",
+    "Includepath": "C:\\Users\\Alexsandr\\Documents\\Arduino\\ARDUINO_PROJECT\\libraries\\Adafruit_BusIO"
+  },
+  {
+    "Sourcefile": "C:\\Users\\Alexsandr\\Documents\\Arduino\\ARDUINO_PROJECT\\ESP_NOKIA5110\\build\\sketch\\ESP_NOKIA5110.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Alexsandr\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.5.2\\libraries\\SPI\\SPI.cpp",
     "Include": "",
     "Includepath": null
   },
@@ -76,11 +81,6 @@
   },
   {
     "Sourcefile": "C:\\Users\\Alexsandr\\Documents\\Arduino\\ARDUINO_PROJECT\\libraries\\Adafruit_BusIO\\Adafruit_SPIDevice.cpp",
-    "Include": "",
-    "Includepath": null
-  },
-  {
-    "Sourcefile": "C:\\Users\\Alexsandr\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.5.2\\libraries\\SPI\\SPI.cpp",
     "Include": "",
     "Includepath": null
   },

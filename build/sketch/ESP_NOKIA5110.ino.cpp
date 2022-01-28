@@ -1,3 +1,5 @@
+#include <Arduino.h>
+#line 1 "C:\\Users\\Alexsandr\\Documents\\Arduino\\ARDUINO_PROJECT\\ESP_NOKIA5110\\ESP_NOKIA5110.ino"
 #include "SPI.h"
 #include <Adafruit_GFX.h>
 #include <Adafruit_PCD8544.h>
@@ -9,6 +11,19 @@ Adafruit_PCD8544 display = Adafruit_PCD8544(14, 13, 4, 15, 5);
 
 
 
+#line 12 "C:\\Users\\Alexsandr\\Documents\\Arduino\\ARDUINO_PROJECT\\ESP_NOKIA5110\\ESP_NOKIA5110.ino"
+void pinInit();
+#line 19 "C:\\Users\\Alexsandr\\Documents\\Arduino\\ARDUINO_PROJECT\\ESP_NOKIA5110\\ESP_NOKIA5110.ino"
+void setDC(uint8_t bit);
+#line 29 "C:\\Users\\Alexsandr\\Documents\\Arduino\\ARDUINO_PROJECT\\ESP_NOKIA5110\\ESP_NOKIA5110.ino"
+void chipSelect(uint8_t bit);
+#line 38 "C:\\Users\\Alexsandr\\Documents\\Arduino\\ARDUINO_PROJECT\\ESP_NOKIA5110\\ESP_NOKIA5110.ino"
+void resetN5110(uint8_t bit);
+#line 51 "C:\\Users\\Alexsandr\\Documents\\Arduino\\ARDUINO_PROJECT\\ESP_NOKIA5110\\ESP_NOKIA5110.ino"
+void setup();
+#line 116 "C:\\Users\\Alexsandr\\Documents\\Arduino\\ARDUINO_PROJECT\\ESP_NOKIA5110\\ESP_NOKIA5110.ino"
+void loop();
+#line 12 "C:\\Users\\Alexsandr\\Documents\\Arduino\\ARDUINO_PROJECT\\ESP_NOKIA5110\\ESP_NOKIA5110.ino"
 void pinInit(){
   
   pinMode(D1, OUTPUT);
@@ -123,3 +138,4 @@ void loop() {
   
 
 }
+
