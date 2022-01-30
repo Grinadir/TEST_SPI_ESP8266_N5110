@@ -1,7 +1,5 @@
 #include "SPI.h"
-#include <Adafruit_GFX.h>
-#include <Adafruit_PCD8544.h>
-Adafruit_PCD8544 display = Adafruit_PCD8544(14, 13, 4, 15, 5);
+
 
 #define D1 5  // reset N5110
 #define D2 4  // DC N5110
@@ -9,7 +7,7 @@ Adafruit_PCD8544 display = Adafruit_PCD8544(14, 13, 4, 15, 5);
 
 
 
-void pinInit(){
+void initPin(){
   
   pinMode(D1, OUTPUT);
   pinMode(D2, OUTPUT);
@@ -46,11 +44,46 @@ void resetN5110(uint8_t bit){
 
 }
 
-
-
-void setup() {
+void testing() {
   // put your setup code here, to run once:
-  pinInit();
+  initPin();
+  resetN5110(0);
+  delay(1000);
+  resetN5110(1);
+  delay(100);
+  chipSelect(0);
+  SPI.begin();
+  SPI.setFrequency(60000);
+  delay(1000);
+  setDC(0);
+  SPI.transfer(0x21);
+  //SPI.transfer(0xFF);
+  SPI.transfer(0x14);
+  SPI.transfer(0x20);
+  SPI.transfer(0x21);
+  SPI.transfer(0xC0);
+  SPI.transfer(0x20);
+  SPI.transfer(0x20);
+  SPI.transfer(0x0C);
+  SPI.transfer(0x40);
+  SPI.transfer(0x80);
+  //SPI.transfer(0xFF);
+
+ 
+  setDC(1);
+  for(int i=1;i<=16;i++)
+  {
+  SPI.transfer(0);
+  }
+  
+
+}
+
+
+
+void testing_not_work() {
+  // put your setup code here, to run once:
+  initPin();
   chipSelect(0);
   resetN5110(0);
   delay(100);
@@ -113,8 +146,16 @@ void setup() {
 
 }
 
+void setup(){
+  testing();
+
+  
+}
+
 void loop() {
   // put your main code here, to run repeatedly:
+  SPI.transfer(255);
+  delay(500);
   
 
 
